@@ -273,3 +273,78 @@ a {
     border-radius: 50%;
     margin-top: -6px;
 }
+
+.album {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.album-song-image img {
+    height: 3.5em;
+    width: 3.5em;
+}
+
+.album-song-details {
+    
+    height: auto;
+}
+
+.album-items {
+    margin-right: 1rem;
+}
+
+.album-song-details > p{
+    margin: 0;
+    line-height: 1.1rem;
+    width: 8rem;
+}
+
+.album-song-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.album-song-writer {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.album-song-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.album-song-icons i{
+    opacity: 0.7;
+}
+
+.album-song-icons i:hover {
+    opacity: 1;
+    scale: 1.1;
+}
+
+.controls .controls-icons{
+    display: flex;
+    justify-content: end;
+}
+
+.controls .controls-icons i{
+    height: 1rem;
+    width: 1rem;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.controls .controls-icons i:hover {
+    opacity: 1;
+}
+
+.controls .controls-icons .controls-progress-bar {
+    width: 40%;
+    margin-right: 1rem;
+}
